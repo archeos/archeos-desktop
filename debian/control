@@ -2,12 +2,13 @@ Source: archeos-desktop
 Section: metapackages
 Priority: optional
 Maintainer: Fabrizio Furnari <fab.furnari@gmail.com>
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 7.0.8)
 
 Package: archeos-desktop
 Architecture: any
-Depends: gdm3 desktop-base
+Depends: gdm3, desktop-base, ${misc:Depends}
+Description: Standard base desktop metapackage
  This metapackage depends on all of the software needed to build a standard
  desktop environment.
  .
