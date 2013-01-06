@@ -6,7 +6,7 @@ Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 7.0.8)
 
 Package: archeos-desktop
-Architecture: any
+Architecture: all
 Depends: gdm3, desktop-base, ${misc:Depends}
 Description: Standard base desktop metapackage
  This metapackage depends on all of the software needed to build a standard
