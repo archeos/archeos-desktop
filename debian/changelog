@@ -1,3 +1,9 @@
+archeos-desktop (0.3) theodoric; urgency=low
+
+  * Added gnome-core metapackage
+
+ -- Fabrizio Furnari <ffurnari@expedia.com>  Thu, 10 Jan 2013 16:01:31 +0100
+
 archeos-desktop (0.2) theodoric; urgency=low
 
   * Added iceweasel and gnome-terminal packages

@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7.0.8)
 
 Package: archeos-desktop
 Architecture: all
-Depends: gdm3, desktop-base, gnome-terminal, iceweasel, ${misc:Depends}
+Depends: gdm3, desktop-base, gnome-core, gnome-terminal, iceweasel, ${misc:Depends}
 Description: Standard base desktop metapackage
  This metapackage depends on all of the software needed to build a standard
  desktop environment.
