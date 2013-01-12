@@ -1,3 +1,13 @@
+archeos-desktop (0.4) theodoric; urgency=low
+
+  * Added some packages
+  * Added gnome-core
+  * Modified instructions for git-buildpackage
+  * Committed changelog for this version
+  * Better instructions
+
+ -- Fabrizio Furnari <ffurnari@expedia.com>  Sun, 13 Jan 2013 00:24:47 +0100
+
 archeos-desktop (0.3) theodoric; urgency=low
 
   * Added gnome-core metapackage
