@@ -15,7 +15,8 @@ Simple instructions for this metapackage
 4.   Use `git-dch -R` to update the changelog file. 
      Edit it properly (if need to change something, but most of the time it doesn't.) then add it and 
      commit it too (usual`git add` and `git commit`).
-5.   Build and tag the package with `git-buildpackage --git-tag`.
+5.   Build and tag the package with `git-buildpackage --git-tag`. Push changes upstream 
+     with `git push && git push --tags`
 6.   Clean the package with `debuild clean`.
 7.   Upload the packages (all deb files, changes and dsc) to the repository server and import them into 
      the distrubution with reprepro.
