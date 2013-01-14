@@ -10,7 +10,7 @@ Requirements
 Simple instructions for this metapackage
 ----------------------------------------
 1.   Edit the *debian/control* file and do the relative modifications (add package to depends, and so on).
-2.   You can test the package build with `git-buildpackage --git-ignore-new` anytime you want.
+2.   You can test the package build with `git-buildpackage --git-ignore-new -us -uc` anytime you want.
 3.   When ready to deploy a working version, commit your changes the usual way (`git add` & `git commit`).
 4.   Use `git-dch -R` to update the changelog file. 
      Edit it properly (if need to change something, but most of the time it doesn't.) then add it and 
