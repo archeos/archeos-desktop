@@ -1,3 +1,9 @@
+archeos-desktop (0.5) theodoric; urgency=low
+
+  * Added some missing feat to control, better readme
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Mon, 14 Jan 2013 20:06:06 +0100
+
 archeos-desktop (0.4) theodoric; urgency=low
 
   * Added some packages
