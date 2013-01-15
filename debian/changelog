@@ -1,3 +1,10 @@
+archeos-desktop (0.6) theodoric; urgency=low
+
+  * Added locales and menu packages. Closes #5 and archeos/ArcheOS#58
+  * Removed duplicate dependencies, added sudo
+
+ -- Fabrizio Furnari <ffurnari@expedia.com>  Tue, 15 Jan 2013 17:44:09 +0100
+
 archeos-desktop (0.5) theodoric; urgency=low
 
   * Added some missing feat to control, better readme
