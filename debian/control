@@ -13,7 +13,24 @@ Architecture: all
 Depends: gdm3, desktop-base, gnome-core, locales, menu, sudo, ${misc:Depends}
 Description: Standard base desktop metapackage
  This metapackage depends on all of the software needed to build a standard
- desktop environment.
+ ArcheOS environment.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
+
+Package: archeos-tasks
+Architecture: all
+Depends: tasksel (>=3.00)
+Description: ArcheOS tasks for tasksel.
+ This package provides ArcheOS tasks in tasksel.
+
+Package: archeos-menu
+Architecture: all
+Depends: desktop-profiles
+Description: ArcheOS menu reorganization
+ A package to reorganizate menu branches in order to get a structure
+ convenient for archaeologists.
+ .
+
+
+
