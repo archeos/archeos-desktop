@@ -1,3 +1,9 @@
+archeos-desktop (0.8) theodoric; urgency=medium
+
+  * added dependency
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Thu, 16 Jan 2014 15:51:05 +0100
+
 archeos-desktop (0.7) theodoric; urgency=medium
 
   * Fixed homepage. Closes #4
