@@ -10,7 +10,7 @@ Homepage: http://www.archeos.eu
 
 Package: archeos-desktop
 Architecture: all
-Depends: gdm3, desktop-base, gnome-core, locales, menu, sudo, ${misc:Depends}
+Depends: archeos-keyring, gdm3, desktop-base, gnome-core, locales, menu, sudo, ${misc:Depends}
 Description: Standard base desktop metapackage
  This metapackage depends on all of the software needed to build a standard
  ArcheOS environment.
