@@ -1,3 +1,11 @@
+archeos-desktop (0.7) theodoric; urgency=medium
+
+  * Fixed homepage. Closes #4
+  * First structure for tasks
+  * added keyring
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Thu, 16 Jan 2014 14:34:15 +0100
+
 archeos-desktop (0.6) theodoric; urgency=low
 
   * Added locales and menu packages. Closes #5 and archeos/ArcheOS#58
