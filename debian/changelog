@@ -1,3 +1,9 @@
+archeos-desktop (0.9) theodoric; urgency=medium
+
+  * added xfce4 version
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Fri, 02 May 2014 13:27:37 +0200
+
 archeos-desktop (0.8) theodoric; urgency=medium
 
   * added dependency
