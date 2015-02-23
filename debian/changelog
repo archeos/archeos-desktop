@@ -1,3 +1,9 @@
+archeos-desktop (5.1) theodoric; urgency=medium
+
+  * documentation moved
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Mon, 23 Feb 2015 14:42:45 +0100
+
 archeos-desktop (5.0) theodoric; urgency=medium
 
   * included all metapackages. Removed archeos-menu
