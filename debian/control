@@ -10,7 +10,18 @@ Homepage: http://www.archeos.eu
 
 Package: archeos-desktop
 Architecture: all
-Depends: archeos-keyring, archeos-menu, gdm3, desktop-base, gnome-core, locales, menu, sudo, ${misc:Depends}
+Depends: archeos-keyring,
+         archeos-menu,
+         archeos-system,
+         archeos-tasks,
+         archeos-manual,
+         gdm3,
+         desktop-base,
+         gnome-core,
+         locales,
+         menu,
+         sudo,
+         ${misc:Depends}
 Description: Standard base desktop metapackage
  This metapackage depends on all of the software needed to build a standard
  ArcheOS environment.
@@ -22,6 +33,9 @@ Package: archeos-desktop-xfce
 Architecture: all
 Depends: archeos-keyring,
          archeos-menu,
+         archeos-system,
+         archeos-tasks,
+         archeos-manual,
          lightdm,
          desktop-base,
          xfce4,
@@ -42,14 +56,3 @@ Architecture: all
 Depends: tasksel (>=3.00)
 Description: ArcheOS tasks for tasksel.
  This package provides ArcheOS tasks in tasksel.
-
-Package: archeos-menu
-Architecture: all
-Depends: desktop-profiles
-Description: ArcheOS menu reorganization
- A package to reorganizate menu branches in order to get a structure
- convenient for archaeologists.
- .
-
-
-
