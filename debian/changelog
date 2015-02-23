@@ -1,3 +1,9 @@
+archeos-desktop (5.0) theodoric; urgency=medium
+
+  * included all metapackages. Removed archeos-menu
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Mon, 23 Feb 2015 12:53:58 +0100
+
 archeos-desktop (0.9) theodoric; urgency=medium
 
   * added xfce4 version
